@@ -1,6 +1,8 @@
 
 import { mockApi } from "../mocks/mockApi";
 import { USE_MOCKS } from "./config";
+import http from "../api/httpClient";
+import { ENDPOINTS } from "../api/endpoints";
 
 // registra un pedido utilizando la API simulada
 export const crearPedido = (datos) => {
@@ -40,6 +42,6 @@ export const getPuntosRetiro = () => {
         return mockApi.getPuntosRetiro();
     }
 
-    throw new Error("La consulta de puntos de retiro con el backend aún no está implementada.");
+    return http.get(ENDPOINTS.PUNTOS_RETIRO).then((r) => r.data);
 };
 
