@@ -11,6 +11,10 @@ export const ENDPOINTS = {
   PRODUCTO: (id) => `/api/productos/${id}`,
   PRODUCTO_STOCK: (id) => `/api/productos/${id}/stock`,
   CATEGORIAS: "/api/categorias",
+  // Carrito de compras
+  CARRITO: "/api/carrito",
+  CARRITO_ITEMS: "/api/carrito/items",
+  CARRITO_ITEM: (productoId) => `/api/carrito/items/${productoId}`,
   REPORTE_VENTAS: "/api/reportes/ventas",
 
 
