@@ -3,6 +3,7 @@ import { useState } from "react";
 import Mapa from "../../components/Mapa";
 import { useAuth } from "../../hooks/useAuth";
 import { crearPedido, getPuntosRetiro } from "../../services/pedidosService";
+import { iniciarPago } from "../../services/pagosService";
 import { useFetch } from "../../hooks/useFetch";
 import { formatPrecio } from "../../utils/formato";
 import { METODOS_PAGO } from "../../utils/estados";
@@ -66,9 +67,36 @@ export default function Checkout() {
 
       const pedido = await crearPedido(datosPedido);
 
-      vaciarCarrito();
+      // Si paga con tarjeta, inicia la transacción en Webpay.
+      if (metodoPago === "TARJETA") {
 
+        const respuestaPago = await iniciarPago(pedido.id);
+
+        // Crea un formulario para enviar el token a Webpay.
+        const formulario = document.createElement("form");
+        formulario.method = "POST";
+        formulario.action = respuestaPago.url;
+
+        const token = document.createElement("input");
+        token.type = "hidden";
+        token.name = "token_ws";
+        token.value = respuestaPago.token;
+
+        formulario.appendChild(token);
+        document.body.appendChild(formulario);
+        formulario.submit();
+
+        return;
+      }
+
+      // Transferencia y efectivo mantienen su funcionamiento.
       setMensaje(`Pedido N° ${pedido.id} registrado correctamente.`);
+
+      try {
+        await vaciarCarrito();
+      } catch (error) {
+        setMensaje(`Pedido N° ${pedido.id} registrado, pero no se pudo vaciar el carrito.`);
+      }
 
     } catch (error) {
       setMensaje(error.message || "No se pudo registrar el pedido.");

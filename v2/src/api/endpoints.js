@@ -22,5 +22,6 @@ export const ENDPOINTS = {
   MIS_PEDIDOS: "/api/pedidos/mis-pedidos",
   PEDIDO: (id) => `/api/pedidos/${id}`,
   PEDIDO_ESTADO: (id) => `/api/pedidos/${id}/estado`,
+  PAGOS_INICIAR: "/api/pagos/iniciar",
   PUNTOS_RETIRO: "/api/puntos-retiro",
 };

@@ -11,6 +11,7 @@ import Catalogo from "../pages/cliente/Catalogo";
 import DetalleProducto from "../pages/cliente/DetalleProducto";
 import Carrito from "../pages/cliente/Carrito";
 import Checkout from "../pages/cliente/Checkout";
+import ResultadoPago from "../pages/cliente/ResultadoPago";
 import MisPedidos from "../pages/cliente/MisPedidos";
 import Ubicacion from "../pages/cliente/Ubicacion";
 import GestionPedidos from "../pages/vendedor/GestionPedidos";
@@ -32,6 +33,9 @@ export default function AppRouter() {
         <Route path="/login" element={<Login />} />
         <Route path="/registro" element={<Registro />} />
       </Route>
+
+      {/* Resultado del pago con Webpay */}
+      <Route path="/pago/resultado" element={<ResultadoPago />} />
 
       {/* Todo lo demás requiere sesión */}
       <Route element={<ProtectedRoute />}>
