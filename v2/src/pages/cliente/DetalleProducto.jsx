@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { useFetch } from "../../hooks/useFetch";
 import { getProducto } from "../../services/productosService";
 import { formatPrecio } from "../../utils/formato";
+import { getImagenProducto } from "../../utils/imagenesCategoria";
 import Cargando from "../../components/Cargando";
 import MensajeError from "../../components/MensajeError";
 import { useCart } from "../../hooks/useCart";
@@ -22,7 +23,7 @@ export default function DetalleProducto() {
     <Link to="/catalogo" className="small">← Volver al catálogo</Link>
     <div className="row g-4 mt-1">
       <div className="col-12 col-md-6">
-        <img src={producto.imagenUrl} alt={producto.nombre} className="img-fluid rounded" />
+        <img src={getImagenProducto(producto)} alt={producto.nombre} className="img-fluid rounded" />
       </div>
       <div className="col-12 col-md-6">
         <small className="text-muted">{producto.marca} {producto.modelo} · {producto.categoria}</small>

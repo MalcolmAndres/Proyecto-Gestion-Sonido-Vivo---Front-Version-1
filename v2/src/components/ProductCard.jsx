@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
 import { formatPrecio } from "../utils/formato";
+import { getImagenProducto } from "../utils/imagenesCategoria";
 
 export default function ProductCard({ producto, onAgregar }) {
   const sinStock = producto.stock === 0;
 
   return (
     <div className="card h-100 shadow-sm">
-      <img src={producto.imagenUrl} className="card-img-top" alt={producto.nombre} />
+      <img
+        src={getImagenProducto(producto)}
+        className="card-img-top"
+        alt={producto.nombre}
+        style={{ height: 200, objectFit: "contain", background: "#fff" }}
+      />
       <div className="card-body d-flex flex-column">
         <small className="text-muted">{producto.marca} · {producto.categoria}</small>
         <h2 className="h6 mt-1">

@@ -31,3 +31,56 @@ h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; }
 
 /* Imágenes de las tarjetas de producto, todas del mismo alto */
 .card-img-top { aspect-ratio: 4 / 3; object-fit: cover; }
+
+
+/* ===== Home (página de inicio) ===== */
+.text-primario { color: var(--sv-primario); }
+
+.home-hero {
+  background: radial-gradient(circle at 80% 30%, rgba(224, 165, 38, 0.18), transparent 55%), var(--sv-oscuro);
+}
+.home-etiqueta {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--sv-primario);
+  border-radius: 999px;
+  color: var(--sv-primario);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.home-hero-img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 2px solid var(--sv-primario);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.45);
+}
+
+/* Línea dorada bajo los títulos */
+.home-linea { width: 60px; height: 3px; background: var(--sv-primario); border-radius: 3px; }
+
+/* Tarjetas de categoría: se levantan al pasar el mouse */
+.home-categoria {
+  color: var(--sv-texto);
+  text-decoration: none;
+  border: 1px solid var(--sv-borde);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.home-categoria:hover {
+  color: var(--sv-texto);
+  transform: translateY(-4px);
+  border-color: var(--sv-primario);
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+
+/* Tarjetas de beneficios con borde dorado arriba y número */
+.home-beneficio { border: none; border-top: 3px solid var(--sv-primario); box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); }
+.home-numero {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.25rem; height: 2.25rem; border-radius: 50%;
+  background: var(--sv-oscuro); color: var(--sv-primario); font-weight: 700;
+}
+
+/* Franja final para invitar a crear cuenta */
+.home-cta { background: var(--sv-oscuro); border-top: 3px solid var(--sv-primario); }
