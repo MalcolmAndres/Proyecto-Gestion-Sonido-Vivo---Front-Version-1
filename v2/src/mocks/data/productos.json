@@ -9,7 +9,7 @@
     "precio": 129990,
     "stock": 8,
     "descripcion": "Tapa de abeto, aros y fondo de meranti. Ideal para iniciantes.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20Ac%C3%BAsticas",
+    "imagenUrl": "/img/categorias/guitarra-acustica.jpg",
     "activo": true
   },
   {
@@ -22,7 +22,7 @@
     "precio": 189990,
     "stock": 5,
     "descripcion": "Tapa de abeto macizo, brazo de caoba. Sonido cálido y proyectado.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20Ac%C3%BAsticas",
+    "imagenUrl": "/img/categorias/guitarra-acustica.jpg",
     "activo": true
   },
   {
@@ -35,7 +35,7 @@
     "precio": 89990,
     "stock": 10,
     "descripcion": "Nailon, tapa de abeto. Ideal para estudio y flamenco.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20Ac%C3%BAsticas",
+    "imagenUrl": "/img/categorias/guitarra-acustica.jpg",
     "activo": true
   },
   {
@@ -48,7 +48,7 @@
     "precio": 349990,
     "stock": 3,
     "descripcion": "Pickup integrado, afinador incorporado.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20Ac%C3%BAsticas",
+    "imagenUrl": "/img/categorias/guitarra-acustica.jpg",
     "activo": true
   },
   {
@@ -61,7 +61,7 @@
     "precio": 79990,
     "stock": 6,
     "descripcion": "Tamaño reducido para niños de 6 a 10 años.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20Ac%C3%BAsticas",
+    "imagenUrl": "/img/categorias/guitarra-acustica.jpg",
     "activo": true
   },
   {
@@ -74,7 +74,7 @@
     "precio": 249990,
     "stock": 5,
     "descripcion": "Cuerpo de álamo, mástil de arce, pastillas SSS.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20El%C3%A9ctricas",
+    "imagenUrl": "/img/categorias/guitarra-electrica.jpg",
     "activo": true
   },
   {
@@ -87,7 +87,7 @@
     "precio": 329990,
     "stock": 4,
     "descripcion": "Cuerpo caoba, tapa arce, pastillas humbucker.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20El%C3%A9ctricas",
+    "imagenUrl": "/img/categorias/guitarra-electrica.jpg",
     "activo": true
   },
   {
@@ -100,7 +100,7 @@
     "precio": 319990,
     "stock": 3,
     "descripcion": "Cuerpo caoba, mástil caoba, 2 humbuckers.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20El%C3%A9ctricas",
+    "imagenUrl": "/img/categorias/guitarra-electrica.jpg",
     "activo": true
   },
   {
@@ -113,7 +113,7 @@
     "precio": 239990,
     "stock": 4,
     "descripcion": "Cuerpo álamo, clavijero vintage, 2 pastillas single.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20El%C3%A9ctricas",
+    "imagenUrl": "/img/categorias/guitarra-electrica.jpg",
     "activo": true
   },
   {
@@ -126,7 +126,7 @@
     "precio": 549990,
     "stock": 2,
     "descripcion": "Semi-hueca, 2 humbuckers, ideal para jazz y blues.",
-    "imagenUrl": "https://placehold.co/400x300?text=Guitarras%20El%C3%A9ctricas",
+    "imagenUrl": "/img/categorias/guitarra-electrica.jpg",
     "activo": true
   },
   {
@@ -139,7 +139,7 @@
     "precio": 299990,
     "stock": 5,
     "descripcion": "Pickup PJ, cuerpo álamo, mástil arce.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bajos%20El%C3%A9ctricos",
+    "imagenUrl": "/img/categorias/bajo.jpg",
     "activo": true
   },
   {
@@ -152,7 +152,7 @@
     "precio": 699990,
     "stock": 2,
     "descripcion": "Alder body, 2 Alnico V Jazz single-coil.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bajos%20El%C3%A9ctricos",
+    "imagenUrl": "/img/categorias/bajo.jpg",
     "activo": true
   },
   {
@@ -165,7 +165,7 @@
     "precio": 429990,
     "stock": 2,
     "descripcion": "Electroacústico, afinador incorporado.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bajos%20El%C3%A9ctricos",
+    "imagenUrl": "/img/categorias/bajo.jpg",
     "activo": true
   },
   {
@@ -178,7 +178,7 @@
     "precio": 599990,
     "stock": 2,
     "descripcion": "Incluye stands, platillos y pedal de bombo.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bater%C3%ADas",
+    "imagenUrl": "/img/categorias/bateria.jpg",
     "activo": true
   },
   {
@@ -191,7 +191,7 @@
     "precio": 799990,
     "stock": 2,
     "descripcion": "Módulo TD-02, 8 pads de goma, pedal hi-hat.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bater%C3%ADas",
+    "imagenUrl": "/img/categorias/bateria.jpg",
     "activo": true
   },
   {
@@ -204,7 +204,7 @@
     "precio": 89990,
     "stock": 4,
     "descripcion": "Acero, 14x5\", 10 tensores.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bater%C3%ADas",
+    "imagenUrl": "/img/categorias/bateria.jpg",
     "activo": true
   },
   {
@@ -217,7 +217,7 @@
     "precio": 149990,
     "stock": 3,
     "descripcion": "Latón B20, sonido brillante y claro.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bater%C3%ADas",
+    "imagenUrl": "/img/categorias/bateria.jpg",
     "activo": true
   },
   {
@@ -230,7 +230,7 @@
     "precio": 129990,
     "stock": 3,
     "descripcion": "Latón B20, ataque rápido.",
-    "imagenUrl": "https://placehold.co/400x300?text=Bater%C3%ADas",
+    "imagenUrl": "/img/categorias/bateria.jpg",
     "activo": true
   },
   {
@@ -243,7 +243,7 @@
     "precio": 249990,
     "stock": 4,
     "descripcion": "61 teclas sensibles al tacto, 622 voces.",
-    "imagenUrl": "https://placehold.co/400x300?text=Teclados%20y%20Pianos",
+    "imagenUrl": "/img/categorias/teclado.jpg",
     "activo": true
   },
   {
@@ -256,7 +256,7 @@
     "precio": 499990,
     "stock": 2,
     "descripcion": "88 teclas pesadas, 10 voces, pedal sustain incluido.",
-    "imagenUrl": "https://placehold.co/400x300?text=Teclados%20y%20Pianos",
+    "imagenUrl": "/img/categorias/teclado.jpg",
     "activo": true
   },
   {
@@ -269,7 +269,7 @@
     "precio": 129990,
     "stock": 5,
     "descripcion": "MIDI controller, 49 mini teclas.",
-    "imagenUrl": "https://placehold.co/400x300?text=Teclados%20y%20Pianos",
+    "imagenUrl": "/img/categorias/teclado.jpg",
     "activo": true
   },
   {
@@ -282,7 +282,7 @@
     "precio": 399990,
     "stock": 2,
     "descripcion": "88 teclas martillo, sin sonidos propios.",
-    "imagenUrl": "https://placehold.co/400x300?text=Teclados%20y%20Pianos",
+    "imagenUrl": "/img/categorias/teclado.jpg",
     "activo": true
   },
   {
@@ -295,7 +295,7 @@
     "precio": 99990,
     "stock": 5,
     "descripcion": "15W, distorsión incorporada, entrada auxiliar.",
-    "imagenUrl": "https://placehold.co/400x300?text=Amplificadores",
+    "imagenUrl": "/img/categorias/amplificador.jpg",
     "activo": true
   },
   {
@@ -308,7 +308,7 @@
     "precio": 299990,
     "stock": 3,
     "descripcion": "40W, 4 canales, efectos digitales integrados.",
-    "imagenUrl": "https://placehold.co/400x300?text=Amplificadores",
+    "imagenUrl": "/img/categorias/amplificador.jpg",
     "activo": true
   },
   {
@@ -321,7 +321,7 @@
     "precio": 449990,
     "stock": 2,
     "descripcion": "100W, tweeter integrado, ecualizador de 4 bandas.",
-    "imagenUrl": "https://placehold.co/400x300?text=Amplificadores",
+    "imagenUrl": "/img/categorias/amplificador.jpg",
     "activo": true
   },
   {
@@ -334,7 +334,7 @@
     "precio": 499990,
     "stock": 2,
     "descripcion": "60W, 2 canales, reverb y chorus incorporados.",
-    "imagenUrl": "https://placehold.co/400x300?text=Amplificadores",
+    "imagenUrl": "/img/categorias/amplificador.jpg",
     "activo": true
   },
   {
@@ -347,7 +347,7 @@
     "precio": 149990,
     "stock": 8,
     "descripcion": "Estándar industria para voz en vivo.",
-    "imagenUrl": "https://placehold.co/400x300?text=Micr%C3%B3fonos",
+    "imagenUrl": "/img/categorias/microfono.jpg",
     "activo": true
   },
   {
@@ -360,7 +360,7 @@
     "precio": 139990,
     "stock": 6,
     "descripcion": "Ideal para captura de instrumentos y amplificadores.",
-    "imagenUrl": "https://placehold.co/400x300?text=Micr%C3%B3fonos",
+    "imagenUrl": "/img/categorias/microfono.jpg",
     "activo": true
   },
   {
@@ -373,7 +373,7 @@
     "precio": 199990,
     "stock": 4,
     "descripcion": "Cardioide, XLR, ideal para grabación en estudio.",
-    "imagenUrl": "https://placehold.co/400x300?text=Micr%C3%B3fonos",
+    "imagenUrl": "/img/categorias/microfono.jpg",
     "activo": true
   },
   {
@@ -386,7 +386,7 @@
     "precio": 299990,
     "stock": 5,
     "descripcion": "USB, 4 patrones polares, ideal para streaming y podcast.",
-    "imagenUrl": "https://placehold.co/400x300?text=Micr%C3%B3fonos",
+    "imagenUrl": "/img/categorias/microfono.jpg",
     "activo": true
   },
   {
@@ -399,7 +399,7 @@
     "precio": 79990,
     "stock": 7,
     "descripcion": "Clásico pedal de distorsión, 3 controles.",
-    "imagenUrl": "https://placehold.co/400x300?text=Pedales%20de%20Efectos",
+    "imagenUrl": "/img/categorias/pedales.jpg",
     "activo": true
   },
   {
@@ -412,7 +412,7 @@
     "precio": 179990,
     "stock": 4,
     "descripcion": "8 modos de reverb, control de shimmer.",
-    "imagenUrl": "https://placehold.co/400x300?text=Pedales%20de%20Efectos",
+    "imagenUrl": "/img/categorias/pedales.jpg",
     "activo": true
   },
   {
@@ -425,7 +425,7 @@
     "precio": 349990,
     "stock": 2,
     "descripcion": "Diseño tipo pedalboard, 8 efectos simultáneos.",
-    "imagenUrl": "https://placehold.co/400x300?text=Pedales%20de%20Efectos",
+    "imagenUrl": "/img/categorias/pedales.jpg",
     "activo": true
   },
   {
@@ -438,7 +438,7 @@
     "precio": 89990,
     "stock": 8,
     "descripcion": "Afinador cromático, indicador de tono.",
-    "imagenUrl": "https://placehold.co/400x300?text=Pedales%20de%20Efectos",
+    "imagenUrl": "/img/categorias/pedales.jpg",
     "activo": true
   },
   {
@@ -451,7 +451,7 @@
     "precio": 179990,
     "stock": 4,
     "descripcion": "Delay analógico cálido, tiempo 600ms.",
-    "imagenUrl": "https://placehold.co/400x300?text=Pedales%20de%20Efectos",
+    "imagenUrl": "/img/categorias/pedales.jpg",
     "activo": true
   },
   {
@@ -464,7 +464,7 @@
     "precio": 99990,
     "stock": 6,
     "descripcion": "Tube Screamer clásico, sonido suave y orgánico.",
-    "imagenUrl": "https://placehold.co/400x300?text=Pedales%20de%20Efectos",
+    "imagenUrl": "/img/categorias/pedales.jpg",
     "activo": true
   },
   {
@@ -477,7 +477,7 @@
     "precio": 8990,
     "stock": 25,
     "descripcion": "Juego 6 cuerdas, calibre ligero.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -490,7 +490,7 @@
     "precio": 10990,
     "stock": 20,
     "descripcion": "Bronce fósforo, sonido cálido.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -503,7 +503,7 @@
     "precio": 14990,
     "stock": 12,
     "descripcion": "Cuerdas de níquel enrollado, set 4 cuerdas.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -516,7 +516,7 @@
     "precio": 3990,
     "stock": 50,
     "descripcion": "Celulosa, grosor medio.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -529,7 +529,7 @@
     "precio": 12990,
     "stock": 15,
     "descripcion": "Capotraste de resorte, compatible 6 cuerdas.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -542,7 +542,7 @@
     "precio": 8990,
     "stock": 20,
     "descripcion": "Afinador cromático de clip, pantalla giratoria.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -555,7 +555,7 @@
     "precio": 12990,
     "stock": 15,
     "descripcion": "Cable trenzado, conectores dorados, 3 metros.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -568,7 +568,7 @@
     "precio": 17990,
     "stock": 10,
     "descripcion": "Cable trenzado, conectores dorados, 6 metros.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -581,7 +581,7 @@
     "precio": 22990,
     "stock": 12,
     "descripcion": "Soporte plegable con enganche automático.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -594,7 +594,7 @@
     "precio": 18990,
     "stock": 10,
     "descripcion": "Montaje a pared, enganche automático.",
-    "imagenUrl": "https://placehold.co/400x300?text=Accesorios",
+    "imagenUrl": "/img/categorias/accesorios.jpg",
     "activo": true
   },
   {
@@ -607,7 +607,7 @@
     "precio": 149990,
     "stock": 4,
     "descripcion": "1 entrada XLR+instrumento, 2 salidas, 24bit/192kHz.",
-    "imagenUrl": "https://placehold.co/400x300?text=Estudio%20y%20Grabaci%C3%B3n",
+    "imagenUrl": "/img/categorias/estudio.jpg",
     "activo": true
   },
   {
@@ -620,7 +620,7 @@
     "precio": 79990,
     "stock": 6,
     "descripcion": "Circumaurales, respuesta 15Hz-20kHz.",
-    "imagenUrl": "https://placehold.co/400x300?text=Estudio%20y%20Grabaci%C3%B3n",
+    "imagenUrl": "/img/categorias/estudio.jpg",
     "activo": true
   },
   {
@@ -633,7 +633,7 @@
     "precio": 219990,
     "stock": 4,
     "descripcion": "Referencia de industria, sonido neutro y detallado.",
-    "imagenUrl": "https://placehold.co/400x300?text=Estudio%20y%20Grabaci%C3%B3n",
+    "imagenUrl": "/img/categorias/estudio.jpg",
     "activo": true
   },
   {
@@ -646,7 +646,7 @@
     "precio": 349990,
     "stock": 2,
     "descripcion": "Altavoz activo, respuesta plana, ideal mezcla.",
-    "imagenUrl": "https://placehold.co/400x300?text=Estudio%20y%20Grabaci%C3%B3n",
+    "imagenUrl": "/img/categorias/estudio.jpg",
     "activo": true
   },
   {
@@ -659,7 +659,7 @@
     "precio": 14990,
     "stock": 8,
     "descripcion": "Doble malla, brazo flexible con clip.",
-    "imagenUrl": "https://placehold.co/400x300?text=Estudio%20y%20Grabaci%C3%B3n",
+    "imagenUrl": "/img/categorias/estudio.jpg",
     "activo": true
   }
 ]
