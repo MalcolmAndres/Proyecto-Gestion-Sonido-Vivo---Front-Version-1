@@ -17,7 +17,8 @@ export default function GestionStock() {
     setErrorGuardar(null);
     try {
       const actualizado = await actualizarStock(producto.id, Number(editados[producto.id]));
-      setData(productos.map((p) => (p.id === producto.id ? actualizado : p)));
+      // El backend responde solo { productoId, stock }: se actualiza el stock y se conserva el resto del producto
+      setData(productos.map((p) => (p.id === producto.id ? { ...p, stock: actualizado.stock } : p)));
       const { [producto.id]: _, ...resto } = editados;
       setEditados(resto);
     } catch (err) {
